@@ -1,0 +1,45 @@
+body {
+    font-size:0;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background: #62E383;
+}
+.toy{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+  background:#3B240C;
+  width:200px;
+  height:180px;
+   border-top-left-radius: 30% 8px;
+  border-top-right-radius: 30% 8px;
+  border-bottom-left-radius: 30% 8px;
+  border-bottom-right-radius: 30% 8px;
+}
+.face{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  justify-content:center;
+  align-items:center;
+  height:180px;}
+.eye{
+  position:relative;
+  top:-10px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  gap:40px;
+}
+.circle{
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background:#62E383;}
+.mouth{
+  width:80px;
+  height:10px;
+  background:#62E383;
+}
